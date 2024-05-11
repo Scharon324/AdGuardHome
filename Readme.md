@@ -5,36 +5,36 @@ Table of Contents hide
 
 Before we can install AdGuard Home on a Raspberry Pi, we must install Raspberry Pi OS.
 
-1. Navigate to the Raspberry Pi website and download the Raspberry Pi Imager.
-how to set up a raspberry pi headless - download page
+    1. Navigate to the Raspberry Pi website and download the Raspberry Pi Imager.
+    how to set up a raspberry pi headless - download page https://www.raspberrypi.com/software/
 
-2. After the download finishes, launch the Raspberry Pi Imager application and connect your SD card to your computer.
-raspberry pi imager home screen
+    2. After the download finishes, launch the Raspberry Pi Imager application and connect your SD card to your computer.
+    raspberry pi imager home screen
 
-3. Select Choose OS and choose the operating system that you would like to use. In this example, I will be using Raspbian Lite.
-raspberry pi operating system selector
+    3. Select Choose OS and choose the operating system that you would like to use. In this example, I will be using Raspbian Lite.
+    raspberry pi operating system selector
 
-4. After selecting your operating system, select Choose SD Card and select the SD card that you connected to your machine.
+    4. After selecting your operating system, select Choose SD Card and select the SD card that you connected to your machine.
 
 NOTE: This will fully format the SD card so remove any important data prior to proceeding.
 storage selection
 
-5. After the operating system and SD card have been selected, select write. This will write the operating system to the SD card.
-settings confirmation and write button to write the operating system to the SD card
-Raspberry Pi AdGuard Home Setup
+    5. After the operating system and SD card have been selected, select write. This will write the operating system to the SD card.
+    settings confirmation and write button to write the operating system to the SD card
+    Raspberry Pi AdGuard Home Setup
 
 1. SSH into your Raspberry Pi. When you SSH in, run the commands below. These commands will get the latest version of AdGuard Home, extract the archive and silently install it. The install file is found on the official AdGuard Home github page.
 
-wget https://static.adguard.com/adguardhome/release/AdGuardHome_linux_arm.tar.gz
-sudo tar xvf AdGuardHome_linux_arm.tar.gz
-cd AdGuardHome
-sudo ./AdGuardHome -s install
+    wget https://static.adguard.com/adguardhome/release/AdGuardHome_linux_arm.tar.gz
+    sudo tar xvf AdGuardHome_linux_arm.tar.gz
+    cd AdGuardHome
+    sudo ./AdGuardHome -s install
 
 adguard home raspberry pi - running commands to install adguard
 
 2. That’s it! Access AdGuard Home using the IP address of your Raspberry Pi and port 3000.
 
-http://[IP_ADDRESS]:3000
+    http://[IP_ADDRESS]:3000
 
 3. Select Get Started to start the configuration process.
 How to Install AdGuard Home on a Raspberry Pi - connecting to adguard home web interface
