@@ -25,18 +25,18 @@ storage selection
 
 1. SSH into your Raspberry Pi. When you SSH in, run the commands below. These commands will get the latest version of AdGuard Home, extract the archive and silently install it. The install file is found on the official AdGuard Home github page.
 
-    wget https://static.adguard.com/adguardhome/release/AdGuardHome_linux_arm.tar.gz
-    sudo tar xvf AdGuardHome_linux_arm.tar.gz
-    cd AdGuardHome
-    sudo ./AdGuardHome -s install
-
-adguard home raspberry pi - running commands to install adguard
+        wget https://static.adguard.com/adguardhome/release/AdGuardHome_linux_arm.tar.gz
+        sudo tar xvf AdGuardHome_linux_arm.tar.gz
+        cd AdGuardHome
+        sudo ./AdGuardHome -s install
+        adguard home raspberry pi - running commands to install adguard
 
 2. That’s it! Access AdGuard Home using the IP address of your Raspberry Pi and port 3000.
 
-    http://[IP_ADDRESS]:3000
+        http://[IP_ADDRESS]:3000
 
 3. Select Get Started to start the configuration process.
+
 How to Install AdGuard Home on a Raspberry Pi - connecting to adguard home web interface
 
 4. Change the listen interface to the IP address of your Raspberry Pi.
