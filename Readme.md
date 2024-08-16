@@ -80,10 +80,6 @@ Now that the setup of AdGuard Home is complete, we need to determine a way to po
 
 I point my routers DNS servers to my AdGuard Home server as I want to ensure every device connects to it.
 
-NOTE: The 192.168.1.198 IP address below is the IP address of my Synology NAS, as I am using two DNS servers for redundancy. If you are only using your Raspberry Pi, you will only add the IP address of your Raspberry Pi.
-dns server configuration on router
-Conclusion – How to Install AdGuard Home on a Raspberry Pi
-
 This tutorial looked at how to install AdGuard Home on a Raspberry Pi. Installing AdGuard Home on a Raspberry Pi is incredibly easy and very powerful. Set it up and you’ll be able to easily block ads or other defined sites on your network.
 
-Thanks for reading the tutorial on how to install AdGuard Home on a Raspberry Pi. If you have any questions on how to install AdGuard Home on a Raspberry Pi, please leave them in the comments!
+Thanks for reading the tutorial on how to install AdGuard Home on a Raspberry Pi.
